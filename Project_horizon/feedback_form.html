@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8996a3;
+}
+
+.feedback_form{
+  background-color: #315cab;
+  width: 440px;
+  height: 500px;
+}
+.feedback_form p{
+  padding: 2vh 3vw;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+form{
+  padding:2vh 3vw ;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+ 
+  
+}
+.feedback_form input{
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+textarea{
+  height: 20vh;
+  outline: none;
+  font-size: 1.1rem;
+}
+.feedback_form button{
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.feedback_form a{
+  text-align: center;
+  margin-left: 12rem;
+  padding: 5px;
+  cursor: pointer;
+}
+
+
+  </style>
+  <title>Document</title>
+</head>
+<body>
+  <main>
+    <div class="feedback_form">
+      <p>Help improve us</p>
+      <form>
+        <input type="text" id="full_name" placeholder="Enter your Name" required>
+        <input type="email" id="email" placeholder="Email Address" required>
+        <textarea placeholder="Enter your Suggestion"></textarea>
+        <button type="submit">Submit</button>
+      </form>
+<a href="about_us.html"><button>Back</button></a></div>
+  </main>
+</body>
+</html>

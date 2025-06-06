@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    main{
+      height: 210vh;
+    }
+    .product_container{ 
+      display: flex;
+      gap: 4rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .product-item{
+      width: 300px;
+      height: 300px;
+      
+    }
+    .images{
+      width: 100%;
+      height: 90%;
+      
+    }
+    .brand_name{
+      margin-top: 5px;
+      color: #151618;
+      font-size: 1.2rem;
+    }
+    .product_name{
+      color: #e54949;
+    }
+    .types{
+      
+
+    }
+    
+    .cost_price{
+        font-size: 1.4rem;
+    }
+    .marked_price{
+    text-decoration: line-through;
+    }
+    .discount{
+      color: #e54949;
+    }
+    .button_add_cart{
+      padding: 10px ;
+      border-radius: 5px;
+      border: none;
+      background-color: #151313;
+      color: #fff;
+      margin: 2rem 0 2rem 5rem;
+      cursor: pointer;
+      
+      
+    }
+
+    .style_container{
+      height: 24vh;
+      gap: 4rem;
+      margin-left: 37vw;
+      text-align: center;
+      font-size: 1.5rem;
+      margin-top: 15rem;
+      
+    }
+    header{
+      height: 40vh;
+    }
+       
+      
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header_container">
+      <h2> <em>Horizon</em></h2>
+      <!-- <img src="" alt="logo"> -->
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="product.html">Product</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="about_us.html">About Us</a></li>
+        </ul>
+      </nav>
+      <div class="profile_conatiner">
+        <div class="profile">
+            <a href="profile.html"><i class="fa-regular fa-user"></i></a> <br>
+            <a href="profile.html"><span>Profile</span></a> 
+        </div>
+
+        <div class="wishlist">
+            <a href="#"><i class="fa-regular fa-heart"></i></a><br>
+            <a href="#"><span>Whislist</span></a>  
+        </div>
+
+        <div class="cart">
+             <a href="#"><i class="fa-solid fa-cart-shopping"></i></a> <br>
+             <a href="#"><span>Add to Cart</span></a>
+             <a href="#"><span class="numbering">0</span></a>  
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <p>Learn,<br> Create & Collaborate</p>
+    </div>
+  </header>
+
+ <main>
+  <div class="product_container">
+
+  </div>
+ </main>
+
+ 
+<footer class="footer">
+  <div class="footer_container">
+    <div class="footer_column">
+      <h3>Social Media</h3>
+         <a href="#">Instragram</a>
+          <a href="#">X</a>
+          <a href="#">Facebook</a>
+          <a href="#">Whatapp</a>
+          <a href="#">Viber</a>
+          <a href="#">Snap Chat</a>
+          <a href="#">Youtube</a>
+    </div>
+    <div class="footer_column">
+      <h3>Customer policies</h3>
+         <a href="#">contact us</a>
+          <a href="#">faq</a>
+          <a href="#">use of term</a>
+          <a href="#">return</a>
+          <a href="#">shipping</a>
+          <a href="#"> privacy policy</a>
+          <a href="#">cancellation</a>
+    </div>
+  </div>
+  <!-- <hr class="hr"> -->
+  <div class="copyRight">© 2023 www.horizon.com. All rights reserved.</div>
+
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

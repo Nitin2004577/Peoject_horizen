@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Sign-Up</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      font-family: 'Courier New', Courier, monospace;
+    }
+    body{
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #d9d6d6;
+      
+    }
+    .main_container{
+      background-color: #303f9f;
+      width: 400px;
+     height: 500px;
+     padding: 5vh 3vw;
+     border-radius: 10px;
+     box-shadow: 0 5px 10px 0 rgba(0,0,0,0.1);
+    }
+
+    header{
+      text-align: center;
+      font-weight: 600;
+      font-size: 1.6rem;
+    }
+
+    form{
+      padding:5vh 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 2rem;
+    }
+
+    form input{
+     padding: .6rem;
+     border-radius: 5px;
+     border: none;
+     outline: none;
+    }
+
+    form a{
+      color: #fff;
+      text-decoration: none;
+    }
+    form button{
+      padding: .6rem;
+      border-radius: 5px;
+     border: none;
+     cursor: pointer;
+     
+    }
+
+    .google button{
+     margin-left: 8rem;
+     padding: .6rem;
+     border-radius: 5px;
+     border: none;
+     cursor: pointer;
+    }
+  .back a button{
+    margin-top: 2rem;
+    margin-left: 11.5rem;  
+    padding: .6rem;
+     border-radius: 5px;
+     border: none;
+     cursor: pointer;
+  }
+  header{
+    color: #fff;
+  }
+    
+  </style>
+</head>
+<body>
+  <div class="main_container">
+    <header>Sign-up to Horizon</header>
+
+    <form> 
+      <input type="text" placeholder="Full Name" id="full_name" required>
+      <input type="email" placeholder="Email Address" id="email" required>
+      <input type="password" placeholder="Password" id="password" required>
+      <a href="https://accounts.google.com/v3/signin/challenge/dp?TL=AHNYTIRLDKLarLvGm4tUeygO5OZAs4gicgwA4DoGPEzMcqwORZZywu1bCKddpIVu&checkConnection=youtube%3A297&checkedDomains=youtube&cid=4&dsh=S-1711203175%3A1705593222924503&flowEntry=ServiceLogin&flowName=GlifWebSignIn&ifkv=ASKXGp38-xyJipSEkc8jDTRDNCR6T7W_HimnXPyxLzR5V6q3_WGMzQsTUJdZpjpf20YXEpbgZqSRgA&pstMsg=1&service=CPanel&theme=glif">Forget Password?</a>
+      <button class="btn" type="submit">Sign-Up</button>
+    </form>
+    <div class="google">
+     <a href="https://accounts.google.com/v3/signin/challenge/pwd?TL=AHNYTIRLDKLarLvGm4tUeygO5OZAs4gicgwA4DoGPEzMcqwORZZywu1bCKddpIVu&checkConnection=youtube%3A297&checkedDomains=youtube&cid=1&dsh=S-1711203175%3A1705593222924503&flowEntry=ServiceLogin&flowName=GlifWebSignIn&ifkv=ASKXGp38-xyJipSEkc8jDTRDNCR6T7W_HimnXPyxLzR5V6q3_WGMzQsTUJdZpjpf20YXEpbgZqSRgA&pstMsg=1&service=CPanel&theme=glif"><button><i class="fa-brands fa-google"></i>  Use Google Account</button></a> 
+    </div>
+
+    <div class="back">
+      <a href="home.html"> <button>Back</button></a>
+     
+    </div>
+  </div>
+</body>
+</html>
